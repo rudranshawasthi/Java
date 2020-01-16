@@ -1,4 +1,4 @@
-package Coding_Ninjas;
+package Coding_Ninjas.Prerequisites;
 /*
         Given an array of integers, print two integer values:
         First, the sum of all numbers which are even as well as whose index are even.

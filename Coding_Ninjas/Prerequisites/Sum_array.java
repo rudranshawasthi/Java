@@ -1,4 +1,4 @@
-package Coding_Ninjas;
+package Coding_Ninjas.Prerequisites;
 /*
 Sum Array
         Send Feedback

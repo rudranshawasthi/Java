@@ -1,4 +1,4 @@
-package Coding_Ninjas;
+package Coding_Ninjas.Prerequisites;
 /*
     PRE4
     There are ‘n’ number of villages. You are given an array of size ‘n’ representing the population of each village.
