@@ -1,5 +1,9 @@
 package Coding_Ninjas.Language_tools;
 /*
+                        Name: Rudransh Awasthi
+ */
+
+/*
     Extract Unique characters
         Given a string, you need to remove all the duplicates. That means, the output string should contain
         each character only once. The respective order of characters should remain same.

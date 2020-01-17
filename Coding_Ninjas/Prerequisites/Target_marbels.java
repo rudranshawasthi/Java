@@ -1,5 +1,7 @@
 package Coding_Ninjas.Prerequisites;
-
+/*
+                        Name: Rudransh Awasthi
+ */
 /*
     Target Marbles
         At CodingNinjas, we love to play with marbles. We have many marble games, but the most popular one is

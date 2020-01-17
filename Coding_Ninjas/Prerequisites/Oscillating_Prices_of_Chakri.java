@@ -1,5 +1,7 @@
 package Coding_Ninjas.Prerequisites;
-
+/*
+                        Name: Rudransh Awasthi
+ */
 import java.util.Scanner;
 
 /*

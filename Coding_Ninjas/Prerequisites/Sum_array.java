@@ -1,4 +1,8 @@
 package Coding_Ninjas.Prerequisites;
+
+/*
+                        Name: Rudransh Awasthi
+ */
 /*
 Sum Array
         Send Feedback

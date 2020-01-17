@@ -1,5 +1,7 @@
 package Coding_Ninjas.Language_tools;
-
+/*
+                        Name: Rudransh Awasthi
+ */
 
 import java.util.Scanner;
 
