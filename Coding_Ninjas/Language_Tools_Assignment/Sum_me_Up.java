@@ -29,5 +29,23 @@ package Coding_Ninjas.Language_Tools_Assignment;
         4 + 5 + 8 + 7 + 6 = 30
  */
 
+import java.util.Scanner;
+
 public class Sum_me_Up {
+    public static void main(String ar[]){
+        Scanner z = new Scanner(System.in);
+        int t = z.nextInt();
+        long a,i,d,s;
+        for (i=0;i<t;i++){
+            a = z.nextLong();
+            s = 0;
+            while (a>0){
+                d = a%10;
+                a = a/10;
+                s = s+d;
+            }
+            System.out.println(s);
+        }
+
+    }
 }
