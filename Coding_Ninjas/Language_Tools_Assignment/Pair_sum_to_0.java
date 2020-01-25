@@ -27,5 +27,35 @@ package Coding_Ninjas.Language_Tools_Assignment;
         -2 2
         -2 2
  */
+
+
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Pair_sum_to_0 {
+    public static void main(String ae[]){
+        Scanner z = new Scanner(System.in);
+        int n = z.nextInt();
+        int[] arr = new int[n];
+        int i,m,j;
+        for(i=0;i<n;i++){
+            arr[i] = z.nextInt();
+        }
+        Arrays.sort(arr);
+        for(i=0;i<n;i++){
+            if(arr[i] > 0){
+                break;
+            }
+        }
+        m = i;
+        for(i = 0;i< m;i++){
+            for(j=m;j<n;j++){
+                if(arr[i] + arr[j] == 0)
+                    System.out.println(arr[i]+" "+arr[j]);
+                else if(arr[i] + arr[j] > 0){
+                    break;
+                }
+            }
+        }
+    }
 }
