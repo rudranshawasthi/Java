@@ -33,7 +33,7 @@ package Coding_Ninjas.Searching_Sorting_Applications;
        resulting in a minimum distance of 3.
  */
 
-import Coding_Ninjas.Basic.Input;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
