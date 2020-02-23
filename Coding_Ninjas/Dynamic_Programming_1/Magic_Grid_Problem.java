@@ -121,10 +121,10 @@ public class Magic_Grid_Problem {
         op[n-2][m-1] = 1;
         op[n-1][m-2] = 1;
         for (int i = n-2; i >=0 ; i--) {
-            op[i][m-1] = Math.max(1,op[i+1][m-1]-arr[i][m-1]);
+            op[i][m-1] = Math.max(1,op[i+1][m-1]-arr[i+1][m-1]);
         }
         for (int i = m-2; i >= 0  ; i--) {
-            op[n-1][i] =Math.max(1,op[n-1][i+1]- arr[n-1][i]);
+            op[n-1][i] =Math.max(1,op[n-1][i+1]- arr[n-1][i+1]);
         }
         for (int i = n-2; i >= 0; i--) {
             for (int j = m-2; j >= 0 ; j--) {
