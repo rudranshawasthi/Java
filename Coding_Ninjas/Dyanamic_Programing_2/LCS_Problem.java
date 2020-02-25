@@ -26,15 +26,15 @@ import java.util.Scanner;
 public class LCS_Problem {
 
 //    public static int lcs(String s1, String s2) {
-//        if (s1.charAt(0) == '\0' || s2.charAt(0) == '\0') {
+//        if (s1.length() == 0 || s2.length() == 0 ) {
 //            return 0;
 //        }
 //
 //        if (s1.charAt(0) == s2.charAt(0)) {
-//            return 1 + lcs(s1 + 1, s2 + 1);
+//            return 1 + lcs(s1.substring(1), s2.substring(1));
 //        } else {
-//            int option1 = lcs(s1, s2 + 1);
-//            int option2 = lcs(s1 + 1, s2);
+//            int option1 = lcs(s1, s2.substring(1));
+//            int option2 = lcs(s1.substring(1), s2);
 //            return Math.max(option1, option2);
 //        }
 //    }
@@ -68,16 +68,16 @@ public class LCS_Problem {
 //
 //        int ans;
 //        if (s1.charAt(0) == s2.charAt(0)) {
-//            ans = 1 + lcs2Helper(s1 + 1, s2 + 1, m - 1, n - 1, dp);
+//            ans = 1 + lcs2Helper(s1.substring(1), s2.substring(1), m - 1, n - 1, dp);
 //        } else {
-//            int option1 = lcs2Helper(s1, s2 + 1, m, n - 1, dp);
-//            int option2 = lcs2Helper(s1 + 1, s2, m - 1, n, dp);
+//            int option1 = lcs2Helper(s1, s2.substring(1), m, n - 1, dp);
+//            int option2 = lcs2Helper(s1.substring(1), s2, m - 1, n, dp);
 //            ans = Math.max(option1, option2);
 //        }
 //        dp[m][n] = ans;
 //        return ans;
 //    }
-//
+
 //    public static int lcs2(String s1, String s2) {
 //        int m = s1.length();
 //        int n = s2.length();
