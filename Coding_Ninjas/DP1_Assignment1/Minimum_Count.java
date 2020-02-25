@@ -1,4 +1,4 @@
-package Coding_Ninjas.DPAssignment1;
+package Coding_Ninjas.DP1_Assignment1;
 /*
 Minimum Count
 Send Feedback

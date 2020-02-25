@@ -1,4 +1,4 @@
-package Coding_Ninjas.DP_Assignment2;
+package Coding_Ninjas.DP1_Assignment2;
 /*
 Hasan and Trip
 Send Feedback

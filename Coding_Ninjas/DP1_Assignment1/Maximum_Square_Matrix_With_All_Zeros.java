@@ -1,4 +1,4 @@
-package Coding_Ninjas.DPAssignment1;
+package Coding_Ninjas.DP1_Assignment1;
 /*
 Maximum Square Matrix With All Zeros
 Send Feedback
